@@ -1,0 +1,25 @@
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #fff; /* Set the text color to white */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffd700; /* Change link color on hover */
+}
+
+.custom-navbar .nav-link {
+  color: rgb(255, 241, 0); /* Set the custom color */
+}
+
+.custom-navbar .nav-link:hover {
+  color: rgb(255, 200, 0); /* Optional: Change the color on hover */
+}
+.custom-navbar {
+  display: flex;
+  justify-content: space-between; /* Space between brand and navigation */
+  align-items: center; /* Center items vertically */
+}
+
+.custom-navbar .navbar-brand {
+  margin-right: auto; /* Ensure the brand pushes navigation links to the right */
+}
