@@ -1,15 +1,17 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavbarCom from "../components/NavBar";
-import { animated } from "@react-spring/web";
+import Navbar from "../components/NavBar";
+import Profile from "./pages/Profile/profile";
+// import { animated } from "@react-spring/web";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <div>
-      <NavbarCom />
+      <Navbar />
+      <Profile />
     </div>
   );
 }
