@@ -1,25 +1,17 @@
-.custom-navbar .navbar-brand,
-.custom-navbar .nav-link {
-  color: #fff; /* Set the text color to white */
+.bar {
+  color: yellow;
 }
 
-.custom-navbar .nav-link:hover {
-  color: #ffd700; /* Change link color on hover */
+.navbar-light .navbar-brand {
+  color: yellow;
 }
 
-.custom-navbar .nav-link {
-  color: rgb(255, 241, 0); /* Set the custom color */
+.body {
+  color: rgb(18.04% 2.75% 24.71%);
 }
 
-.custom-navbar .nav-link:hover {
-  color: rgb(255, 200, 0); /* Optional: Change the color on hover */
-}
-.custom-navbar {
-  display: flex;
-  justify-content: space-between; /* Space between brand and navigation */
-  align-items: center; /* Center items vertically */
-}
-
-.custom-navbar .navbar-brand {
-  margin-right: auto; /* Ensure the brand pushes navigation links to the right */
-}
+/* .Ravi {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
